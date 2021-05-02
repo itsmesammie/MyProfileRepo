@@ -1,0 +1,142 @@
+#showcase1{
+	position: relative;
+	animation-name: showcase1;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes showcase1{
+	0%{
+		left: -100%;
+
+	}
+	100%{
+		left: 5px;
+
+	}
+}
+
+#showcase2{
+	position: relative;
+	animation-name: showcase2;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes showcase2{
+	0%{
+		right:  -900px;
+
+	}
+	100%{
+		right:  10px;
+
+	}
+}
+
+#home{
+	position: relative;
+	animation-name: home;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes home{
+	0%{
+		right: -150%;
+
+	}
+	100%{
+		right: 5px;
+
+	}
+}
+
+#home2{
+	position: relative;
+	animation-name: home2;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes home2{
+	0%{
+		right: -120%;
+
+	}
+	100%{
+		right: 5px;
+
+	}
+}
+
+#home3{
+	position: relative;
+	animation-name: home3;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes home3{
+	0%{
+		right: -150%;
+
+	}
+	100%{
+		right: 5px;
+
+	}
+}
+
+#about{
+	position: relative;
+	animation-name: about;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes about{
+	0%{
+		right: -150%;
+
+	}
+	100%{
+		right: 5px;
+
+	}
+}
+
+#contact{
+	position: relative;
+	animation-name: contact;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes contact{
+	0%{
+		right:  -100%;
+
+	}
+	100%{
+		right: 5px;
+
+	}
+}
+
+
+@media(max-width: 600px){
+	#showcase1{
+		font-size: 20px;
+    }
+	#showcase2{
+		font-size: 20px;
+	}
+	#showcase3{
+		width: 100%;
+    }
+
+    }
+	
+      
+}

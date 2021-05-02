@@ -1,0 +1,121 @@
+#showcase1{
+	position: relative;
+	animation-name: showcase1;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes showcase1{
+	0%{
+		left: -100%;
+
+	}
+	100%{
+		left: 5px;
+
+	}
+}
+
+#showcase2{
+	position: relative;
+	animation-name: showcase2;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes showcase2{
+	0%{
+		right:  -100%;
+
+	}
+	100%{
+		right:  10px;
+
+	}
+}
+
+#about{
+	position: relative;
+	animation-name: about;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes about{
+	0%{
+		left: -200px;
+
+	}
+	100%{
+		left: 10px;
+
+	}
+}
+
+#about2{
+	position: relative;
+	animation-name: about2;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes about2{
+	0%{
+		right: -150%;
+
+	}
+	100%{
+		right:10px;
+
+	}
+}
+
+.portfolio-text{
+	position: relative;
+	animation-name: portfolio-text;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes portfolio-text{
+	0%{
+		left: -100%;
+
+	}
+	100%{
+		left: 10px;
+
+	}
+}
+
+.portfolio-text2{
+	position: relative;
+	animation-name: portfolio-text2;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes portfolio-text2{
+	0%{
+		right: -100%;
+
+	}
+	100%{
+		right:10px;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

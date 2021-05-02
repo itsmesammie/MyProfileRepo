@@ -1,0 +1,133 @@
+h1{
+font-family: courier;
+margin: 5%;
+
+}
+
+h3{
+	font-family: courier;
+	text-align: center;
+	margin: 12%;
+	text-indent: 50px;
+    line-height: 100px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+/*GridParent*/
+.main-container{
+	display: grid;
+	color: #F260B5;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto auto auto;
+}
+/*GridChild*/
+.navbar{
+	overflow: hidden;
+}
+.navbar a{
+	float: right;
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 13px;
+}
+.navbar a:hover{
+	background-color:#CE389C;
+	color: #000;
+	font-weight: bold;
+	border-bottom: solid #000;
+}
+
+.portfolio{
+	border: #000;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto;
+	grid-column: 1/2;
+	grid-row: 2/3;	
+	display: grid;
+	padding: 210px;
+	margin-top: 70px;
+}
+.portfolio-text{
+	text-align: center;
+	position: relative;
+}
+
+.portfolio-text2{
+	text-align: center;
+}
+
+#showcase1{
+	text-align: center;
+}
+
+.contact{
+	display: grid;
+	grid-auto-columns: auto;
+	padding: 290px;
+	margin-left: 550px;
+	position: relative;
+}
+
+
+img{
+	width: 50%;
+	margin: 1px auto;
+	display: block;
+    border: solid;
+    border-color:none;
+    border-radius: 10px;
+
+}
+
+body{
+	background-image: linear-gradient(60deg, #6C3594, #CE389C, #F260B5)
+}
+
+.showcase3{
+	text-align: left;
+}
+
+.button1 {
+  background-image: url(https://www.flaticon.com/premium-icon/icons/svg/1921/1921190.svg);
+  width: 27%;
+  height: 300%;
+  border: none;
+  color: white;
+  padding: 13%;
+  text-decoration: none;
+  display: inline-block; 
+  margin: 8%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.button1 :hover{ 
+  color: #000000;
+  border-bottom: solid #ffff;
+}
+
+.button2 {
+  background-image: url(https://www.flaticon.com/svg/vstatic/svg/606/606631.svg?token=exp=1619937777~hmac=3510db4a61dde0adc3a24e9c08127364);
+  width: 27%;
+  height: 900%;
+  border: #000000;
+  color: #000000;
+  padding: 13%;
+  text-decoration: none;
+  display: inline-block; 
+  margin: 5%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.button2 :hover{ 
+  color: #000000;
+  border-bottom: solid #ffff;
+}
